@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9186714A22FDCEBB00CF8C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186714922FDCEBB00CF8C2D /* AppDelegate.swift */; };
-		9186714C22FDCEBB00CF8C2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186714B22FDCEBB00CF8C2D /* ViewController.swift */; };
 		9186714F22FDCEBB00CF8C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186714D22FDCEBB00CF8C2D /* Main.storyboard */; };
 		9186715122FDCEBE00CF8C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9186715022FDCEBE00CF8C2D /* Assets.xcassets */; };
 		9186715422FDCEBE00CF8C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186715222FDCEBE00CF8C2D /* LaunchScreen.storyboard */; };
 		9186715F22FDCEBE00CF8C2D /* DYTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186715E22FDCEBE00CF8C2D /* DYTVTests.swift */; };
 		9186716A22FDCEBE00CF8C2D /* DYTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186716922FDCEBE00CF8C2D /* DYTVUITests.swift */; };
+		9186719722FE6C3100CF8C2D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186719522FE6C3100CF8C2D /* Home.storyboard */; };
+		9186719A22FE6C4900CF8C2D /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186719822FE6C4900CF8C2D /* Live.storyboard */; };
+		9186719D22FE6C8100CF8C2D /* Flower.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186719B22FE6C8100CF8C2D /* Flower.storyboard */; };
+		918671A022FE6CA300CF8C2D /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186719E22FE6CA200CF8C2D /* Mine.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		9186714622FDCEBB00CF8C2D /* DYTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9186714922FDCEBB00CF8C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9186714B22FDCEBB00CF8C2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9186714E22FDCEBB00CF8C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9186715022FDCEBE00CF8C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9186715322FDCEBE00CF8C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		9186716522FDCEBE00CF8C2D /* DYTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9186716922FDCEBE00CF8C2D /* DYTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYTVUITests.swift; sourceTree = "<group>"; };
 		9186716B22FDCEBE00CF8C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9186719622FE6C3100CF8C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYTV/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		9186719922FE6C4900CF8C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYTV/Base.lproj/Live.storyboard; sourceTree = "<group>"; };
+		9186719C22FE6C8100CF8C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYTV/Base.lproj/Flower.storyboard; sourceTree = "<group>"; };
+		9186719F22FE6CA300CF8C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYTV/Base.lproj/Mine.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,6 @@
 			children = (
 				9186718522FDDDDD00CF8C2D /* Classes */,
 				9186714922FDCEBB00CF8C2D /* AppDelegate.swift */,
-				9186714B22FDCEBB00CF8C2D /* ViewController.swift */,
-				9186714D22FDCEBB00CF8C2D /* Main.storyboard */,
 				9186715022FDCEBE00CF8C2D /* Assets.xcassets */,
 				9186715222FDCEBE00CF8C2D /* LaunchScreen.storyboard */,
 				9186715522FDCEBE00CF8C2D /* Info.plist */,
@@ -130,9 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				9186718622FDDDDD00CF8C2D /* Home */,
+				9186718922FDDDDD00CF8C2D /* Live */,
 				9186718722FDDDDD00CF8C2D /* Follow */,
 				9186718822FDDDDD00CF8C2D /* Profile */,
-				9186718922FDDDDD00CF8C2D /* Live */,
 				9186718A22FDDDDD00CF8C2D /* Main */,
 				9186718B22FDDDDD00CF8C2D /* Tool */,
 			);
@@ -142,6 +146,7 @@
 		9186718622FDDDDD00CF8C2D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9186719522FE6C3100CF8C2D /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 		9186718722FDDDDD00CF8C2D /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				9186719B22FE6C8100CF8C2D /* Flower.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -156,6 +162,7 @@
 		9186718822FDDDDD00CF8C2D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				9186719E22FE6CA200CF8C2D /* Mine.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -163,6 +170,7 @@
 		9186718922FDDDDD00CF8C2D /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				9186719822FE6C4900CF8C2D /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -170,6 +178,7 @@
 		9186718A22FDDDDD00CF8C2D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9186714D22FDCEBB00CF8C2D /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -288,6 +297,10 @@
 				9186715422FDCEBE00CF8C2D /* LaunchScreen.storyboard in Resources */,
 				9186715122FDCEBE00CF8C2D /* Assets.xcassets in Resources */,
 				9186714F22FDCEBB00CF8C2D /* Main.storyboard in Resources */,
+				9186719D22FE6C8100CF8C2D /* Flower.storyboard in Resources */,
+				918671A022FE6CA300CF8C2D /* Mine.storyboard in Resources */,
+				9186719A22FE6C4900CF8C2D /* Live.storyboard in Resources */,
+				9186719722FE6C3100CF8C2D /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9186714C22FDCEBB00CF8C2D /* ViewController.swift in Sources */,
 				9186714A22FDCEBB00CF8C2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +375,38 @@
 				9186715322FDCEBE00CF8C2D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9186719522FE6C3100CF8C2D /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9186719622FE6C3100CF8C2D /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		9186719822FE6C4900CF8C2D /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9186719922FE6C4900CF8C2D /* Base */,
+			);
+			name = Live.storyboard;
+			sourceTree = "<group>";
+		};
+		9186719B22FE6C8100CF8C2D /* Flower.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9186719C22FE6C8100CF8C2D /* Base */,
+			);
+			name = Flower.storyboard;
+			sourceTree = "<group>";
+		};
+		9186719E22FE6CA200CF8C2D /* Mine.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9186719F22FE6CA300CF8C2D /* Base */,
+			);
+			name = Mine.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -488,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 82659ZG7A7;
 				INFOPLIST_FILE = DYTV/Info.plist;
@@ -507,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 82659ZG7A7;
 				INFOPLIST_FILE = DYTV/Info.plist;
